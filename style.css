@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #fef3f8; /* Soft pink background */
+    color: #444;
+    }
+    .header {
+    background-color: #ffb9d9; /* Soft pink */
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid #ffb3c6; /* Slightly darker pink for accent */
+    }
+    .nav {
+    background-color: #fff9ea; /* Pastel purple-pink */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    }
+    .nav li {
+    flex-grow: 1;
+    text-align: center;
+    }
+    .nav a {
+    display: block;
+    padding: 12px 20px;
+    color: rgb(84, 55, 3);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .nav a:hover {
+    background-color: #ff7eb9; /* Soft pink on hover */
+    color: #fff;
+    border-radius: 5px;
+    }
+    .main {
+    display: flex;
+    margin: 40px auto;
+    max-width: 1200px;
+    gap: 20px;
+    padding: 0 20px;
+    }
+    .content {
+    flex: 70%;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    }
+    .sidebar {
+    flex: 30%;
+    padding: 30px;
+    background-color: #ffe4ec; /* Very light pink */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    }
+    .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffafd2; /* Pastel purple-pink */
+    color: white;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    }
+    button {
+    margin: 10px 0;
+    padding: 12px 20px;
+    background-color: #ffb3c6; /* Light pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    button:hover {
+    background-color: #ff7eb9; /* Darker pink */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
